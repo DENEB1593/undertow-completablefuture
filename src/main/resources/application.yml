@@ -1,0 +1,7 @@
+server:
+    port: 9090
+    undertow:
+        accesslog:
+            enabled: false
+        max-http-post-size: -1B
+        url-charset: UTF-8
